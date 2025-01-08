@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  /* Set background to black for night sky */
+}
+
+.mars-container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  animation: rotate-mars 5s linear infinite;
+}
+
+.mars {
+  background-image: url("../public/mars.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@keyframes rotate-mars {
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.earth-container {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 200px;
+  animation: rotate 10s linear infinite;
+}
+
+.earth {
+  background-image: url("../public/earth.png");
+  background-size: cover;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+}
+
+.planet {
+  width: 70px;
+  height: 70px;
+  background-image: url("../public/moon.png");
+  background-size: cover;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(100px);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(100px);
+  }
+}
