@@ -13,7 +13,7 @@ const Footer = () => {
         </div>*/}
         {/* Footer Text */}
         <p className="mb-4 text-sm text-center md:text-left md:mb-0">
-          &copy; 2024 SpaceMatics. All rights reserved.
+          &copy; 2025 SpaceMatics. All rights reserved.
         </p>
         {/* Social Media Links */}
         <div className="flex space-x-4">
