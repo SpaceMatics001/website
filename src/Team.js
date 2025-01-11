@@ -35,14 +35,6 @@ const teamData = [
     imageUrl: 'AnirbanDutta.jpeg',
     linkedinUrl: 'https://www.linkedin.com/in/gh05t/',
   },
-  {
-    id: 5,
-    name: 'Bidesh Roy',
-    position: 'HR Executive | Content Builder',
-    description: 'Developer by mindset, Space Enthusiast by Heart | Enthusiastic about exploring the intersection of AI and space exploration | 6+ years experience in Software Development | MCA Background',
-    imageUrl: 'BideshRoy.jpg',
-    linkedinUrl: 'https://www.linkedin.com/in/bidesh-roy/',
-  },
   // Add more team members as needed
 ];
 

@@ -18,7 +18,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex space-x-4">
           <a
-            href="https://www.facebook.com/share/TGNrNMGw4SeqdDRW/?mibextid=qi2Omg"
+            href="https://www.facebook.com/share/14s5QiAPBH/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,7 +28,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/company/vyomotics-explorers/"
+            href="https://www.linkedin.com/company/spacematics001/"
             target="_blank"
             rel="noopener noreferrer"
           >
